@@ -1,0 +1,166 @@
+.header {
+	right:2.5%;
+	font-weight:normal;
+	font: 13px/1 Arial;
+	position: absolute;
+	top:2.3%;
+	word-spacing: 15px;
+	color: #60606A;
+	display: block;
+	
+}
+
+.navbar {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.navbar li{
+	display:inline;
+}
+.header img {
+	width:18px;
+	height:18px;
+	position:relative;
+	top:6px;	
+}
+
+.header img:hover {
+	content:url(images/gridoverlay.gif);
+	height:18px;
+	width:18px;
+
+}
+
+.header .Sign_button {
+	
+	word-spacing: normal;
+	display:inline-block;
+	background-color:#4D90FE;
+	padding: 8.5px 12px;
+	border-radius:2px;
+
+}
+
+.Sign_button a {
+	text-decoration: none;
+	color:#fff;
+	font-weight:bold;
+
+}
+
+.body {
+	
+	width:99%;
+	position: absolute;
+	top:23%;
+
+}
+
+.body img{
+	max-width:23%;
+	max-height:auto;
+	display:block;
+	margin:auto;
+	
+}
+
+.body input {
+	background:url(images/voiceicon.png) no-repeat scroll 99%;
+	background-size: 15px auto;
+	padding-right: 30px;
+
+}
+
+.body .searchbox {
+	display:block;
+	margin:auto;
+	width:42%;
+	height:1.8em;
+	border-width: 1px 1px 1px 1px;
+	border-color: #E5E5E5;
+
+}
+
+.searchbox:hover {
+	border-color:#C4C4C4;
+}
+
+.search_buttons {
+	width:98%;
+	position:relative;
+	word-spacing:10px;
+	top:15px;
+	text-align: center;
+}
+
+#google_search, #feeling_lucky {
+	margin:auto;
+	word-spacing:normal;
+	display:inline-block;
+	font-family: Helvetica;
+	text-decoration: none;
+	background-color:#F5F5F5;
+	font-size:11.5px;
+	font-weight:bold;
+	color: #444444;
+	padding:7px 10px;
+	border-radius:1.5px;
+	border: 1px #DADADA solid;
+	letter-spacing: -0.3px;
+
+}
+
+#google_search:hover, #feeling_lucky:hover {
+	border:1.8px #BDBDBD solid;
+}
+
+.footer {
+	width:99.85%;
+	position: absolute;
+	bottom:0%;
+	left:0;
+	height:6.8%;
+	font: 13px Arial;
+	word-spacing: 22px;
+	padding:auto;
+	margin:auto;
+	background-color:#f2f2f2;
+	border-top:1px #DADADA solid;
+	line-height: 95%;
+
+}
+
+.lfooter {
+	position:relative;
+	left:2.5%;
+	display:inline-block;
+
+}
+
+.rfooter {
+	position:absolute;
+	right:2.5%;
+	display:inline-block;
+}
+
+.rfooter span {
+	word-spacing: normal;
+}
+
+.textlinks {
+	text-decoration: none;
+	color:#60606A;
+	font-weight:normal;
+
+}
+
+.textlinks:hover {
+	text-decoration:underline;
+}
+
+.textlinks:visited {
+	text-decoration:none;
+	color: #60606A;
+}
